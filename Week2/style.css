@@ -2,16 +2,22 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: Arial, sans-serif;
-    color: #505050;
+    font-family: 'Dancing Script', cursive;
+    color: #679436;
+    /*gradient background*/
+    background: rgb(245,42,5);
+    background: linear-gradient(90deg, rgba(245,42,5,1) 0%, rgba(249,244,13,1) 35%, rgba(67,255,0,1) 63%, rgba(0,212,255,1) 94%);
 }
 
 /* Header Styles */
 header {
-    background-color: #fc030b;
+    background-color: #ff6804;
     color: #fff;
     text-align: center;
     padding: 20px;
+    position: sticky;
+    top: 0;
+
 }
 
 .headeraH1 {
@@ -34,10 +40,26 @@ header {
 nav ul {
     background-color: #333;
     color: #fff;
-    text-align: center;
+    text-align: left;
     list-style-type: none;
-    margin: 0;
+    margin:0%;
     padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+
+.welcome {
+    /* display:flex;  */
+    /* float: right;    */
+    color: #ffffff;
+    margin: 0;
+}
+
+.right {
+    margin-left: auto;
 }
 
 nav li {
@@ -46,7 +68,7 @@ nav li {
 
 nav a {
     display: block;
-    color: #fff;
+    color: #ffffff;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -54,7 +76,7 @@ nav a {
 }
 
 nav a:hover {
-    background-color: #505050;  /* Darker shade for hover */
+    background-color: #05668D;  /* Darker shade for hover */
 }
 
 /* Banner Styles */
